@@ -1,0 +1,52 @@
+﻿* {
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+}
+footer__col{
+    display:flex;
+    height:100px;
+}
+ul li, a, p {
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 30px;
+}
+.f-listtel__content a {
+    color: blue;
+    font-weight:900;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    height: 200px;
+    width: 100%;
+    margin-top: auto;
+}
+.footer-bottom {
+    background-color: lightgray;
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: auto;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items:center; 
+}
+.logo {
+   height:120px;
+}
+.logo-website img{
+    height: 20px;
+}
+.f-certify img{
+    height:20px;
+    border-image-width:auto
+}
